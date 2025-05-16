@@ -6,6 +6,7 @@ professionals to easily create custom and dimensionally accurate models through 
 plaintext descriptions in minutes.
 
 ## Setup & User Guide
+
 1. Run `requirements.txt` file to install dependecies.
     ```
     pip install -r requirements.txt
@@ -13,7 +14,6 @@ plaintext descriptions in minutes.
 2. Add your OpenAI API key into `.env`
     ```
     FILE_PATH="documents"
-    # CHROMA_COLLECTION="pepe_collection"
     CHROMA_COLLECTION_CODE="pepe_collection_code" # Description of the code used to generate the items in the collection
     CHROMA_COLLECTION_DESC="pepe_collection_desc" # Description of the items in the collection
     CHROMA_PATH="chroma"
